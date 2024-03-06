@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opencv2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\opencv\;CMake Files\..\opencv\opencv\;CMake Files\..\opencv\opencv\mingw-build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/xrsspace/app/opencv2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv2">
+				<Option output="D:/xrsspace/app/opencv2/cmake-build-debug/opencv2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/xrsspace/app/opencv2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/xrsspace/app/opencv/opencv/mingw-build"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/video/include"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv2"/>
+					<CompileFile command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv2/fast">
+				<Option output="D:/xrsspace/app/opencv2/cmake-build-debug/opencv2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/xrsspace/app/opencv2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/xrsspace/app/opencv/opencv/mingw-build"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/xrsspace/app/opencv/opencv/sources/modules/video/include"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
+					<Add directory="D:/xrsspace/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv2/fast"/>
+					<CompileFile command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/xrsspace/app/opencv2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/xrsspace/app/opencv2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/xrsspace/mingw64/bin/mingw32-make.exe -f &quot;D:/xrsspace/app/opencv2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/xrsspace/app/opencv2/main.cpp">
+			<Option target="opencv2"/>
+		</Unit>
+		<Unit filename="D:/xrsspace/app/opencv2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/xrsspace/app/opencv2/../opencv/opencv/mingw-build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\mingw-build\"/>
+		</Unit>
+		<Unit filename="D:/xrsspace/app/opencv2/../opencv/opencv/mingw-build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\mingw-build\"/>
+		</Unit>
+		<Unit filename="D:/xrsspace/app/opencv2/../opencv/opencv/mingw-build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\opencv\mingw-build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
